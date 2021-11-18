@@ -268,32 +268,32 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 27:             RB1 = 1;
 [e = _RB1 -> -> 1 `i `b ]
 "28
-[; ;main.c: 28:             _delay((unsigned long)((400)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;main.c: 28:             _delay((unsigned long)((1000)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "29
 [; ;main.c: 29:             RB2 = 1;
 [e = _RB2 -> -> 1 `i `b ]
 "30
-[; ;main.c: 30:             _delay((unsigned long)((400)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;main.c: 30:             _delay((unsigned long)((1000)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "31
 [; ;main.c: 31:             RB3 = 1;
 [e = _RB3 -> -> 1 `i `b ]
 "32
-[; ;main.c: 32:             _delay((unsigned long)((400)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;main.c: 32:             _delay((unsigned long)((1000)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "33
 [; ;main.c: 33:             RB3 = 0;
 [e = _RB3 -> -> 0 `i `b ]
 "34
-[; ;main.c: 34:             _delay((unsigned long)((400)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;main.c: 34:             _delay((unsigned long)((1000)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "35
 [; ;main.c: 35:             RB2 = 0;
 [e = _RB2 -> -> 0 `i `b ]
 "36
-[; ;main.c: 36:             _delay((unsigned long)((400)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;main.c: 36:             _delay((unsigned long)((1000)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "37
 [; ;main.c: 37:             RB1 = 0;
 [e = _RB1 -> -> 0 `i `b ]

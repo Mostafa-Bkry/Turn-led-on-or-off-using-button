@@ -11,12 +11,12 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
+$C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
 end_init CODE 0 0 0 3 2
 config CONFIG 4 2007 2007 1 2
 $dist/default/production\Led.X.production.o
 cinit CODE 0 7FC 7FC 4 2
-maintext CODE 0 79D 79D 5F 2
+maintext CODE 0 798 798 64 2
 cstackCOMMON COMMON 1 70 70 3 1
 config CONFIG 4 2007 2007 1 2
 # %UNUSED Section
@@ -33,13 +33,13 @@ BANK0 20-6F 1
 BANK1 A0-EF 1
 BANK2 110-16F 1
 BANK3 190-1EF 1
-CONST 3-79C 2
+CONST 3-797 2
 CONST 800-1FFF 2
-ENTRY 3-79C 2
+ENTRY 3-797 2
 ENTRY 800-1FFF 2
 IDLOC 2000-2003 2
 STACK 110-16F 1
-CODE 3-79C 2
+CODE 3-797 2
 CODE 800-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -47,9 +47,9 @@ SFR2 100-10F 1
 SFR3 180-18F 1
 COMMON 73-7D 1
 EEDATA 2100-21FF 2
-STRCODE 3-79C 2
+STRCODE 3-797 2
 STRCODE 800-1FFF 2
-STRING 3-79C 2
+STRING 3-797 2
 STRING 800-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -65,31 +65,31 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Led.X.production.o
-7FC cinit CODE >364:C:\Users\acer\AppData\Local\Temp\xcAs2bk.s
-7FC cinit CODE >367:C:\Users\acer\AppData\Local\Temp\xcAs2bk.s
-7FC cinit CODE >373:C:\Users\acer\AppData\Local\Temp\xcAs2bk.s
-7FC cinit CODE >375:C:\Users\acer\AppData\Local\Temp\xcAs2bk.s
-7FD cinit CODE >376:C:\Users\acer\AppData\Local\Temp\xcAs2bk.s
-79D maintext CODE >13:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-79D maintext CODE >15:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7A0 maintext CODE >16:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7A1 maintext CODE >17:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7A2 maintext CODE >18:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7A3 maintext CODE >19:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7A6 maintext CODE >20:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7A7 maintext CODE >21:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7A8 maintext CODE >23:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7A8 maintext CODE >25:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7AC maintext CODE >27:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7AD maintext CODE >28:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7B9 maintext CODE >29:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7BC maintext CODE >30:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7C8 maintext CODE >31:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7CB maintext CODE >32:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7D7 maintext CODE >33:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7DA maintext CODE >34:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7E6 maintext CODE >35:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
-7E9 maintext CODE >36:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7FC cinit CODE >364:C:\Users\acer\AppData\Local\Temp\xcAs6hs.s
+7FC cinit CODE >367:C:\Users\acer\AppData\Local\Temp\xcAs6hs.s
+7FC cinit CODE >373:C:\Users\acer\AppData\Local\Temp\xcAs6hs.s
+7FC cinit CODE >375:C:\Users\acer\AppData\Local\Temp\xcAs6hs.s
+7FD cinit CODE >376:C:\Users\acer\AppData\Local\Temp\xcAs6hs.s
+798 maintext CODE >13:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+798 maintext CODE >15:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+79B maintext CODE >16:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+79C maintext CODE >17:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+79D maintext CODE >18:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+79E maintext CODE >19:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7A1 maintext CODE >20:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7A2 maintext CODE >21:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7A3 maintext CODE >23:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7A3 maintext CODE >25:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7A7 maintext CODE >27:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7A8 maintext CODE >28:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7B5 maintext CODE >29:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7B8 maintext CODE >30:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7C5 maintext CODE >31:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7C8 maintext CODE >32:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7D5 maintext CODE >33:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7D8 maintext CODE >34:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7E5 maintext CODE >35:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
+7E8 maintext CODE >36:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
 7F5 maintext CODE >37:D:\MyStudy level 4\Sections\Abeer embedded\First Project\Led.X\main.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
@@ -111,30 +111,30 @@ __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 400F 0 ABS 0 - -
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
-_main F3A 0 CODE 0 maintext dist/default/production\Led.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
+_main F30 0 CODE 0 maintext dist/default/production\Led.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Led.X.production.o
-start 0 0 CODE 0 init C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
+start 0 0 CODE 0 init C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
 __size_of_main 0 0 ABS 0 - dist/default/production\Led.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Led.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
 __Lmaintext 0 0 ABS 0 maintext -
-___stackhi 0 0 ABS 0 - C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
-___stacklo 0 0 ABS 0 - C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
+___stackhi 0 0 ABS 0 - C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
+___stacklo 0 0 ABS 0 - C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
 start_initialization FF8 0 CODE 0 cinit dist/default/production\Led.X.production.o
 _TRISB0 430 0 ABS 0 - dist/default/production\Led.X.production.o
 _TRISB1 431 0 ABS 0 - dist/default/production\Led.X.production.o
 _TRISB2 432 0 ABS 0 - dist/default/production\Led.X.production.o
 _TRISB3 433 0 ABS 0 - dist/default/production\Led.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
+___int_sp 0 0 STACK 2 stack C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -176,8 +176,8 @@ __S1 73 0 ABS 0 - -
 __S2 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 __Lintentry 0 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\acer\AppData\Local\Temp\xcAs2bk.o
-__pmaintext F3A 0 CODE 0 maintext dist/default/production\Led.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\acer\AppData\Local\Temp\xcAs6hs.o
+__pmaintext F30 0 CODE 0 maintext dist/default/production\Led.X.production.o
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
 __Lspace_0 0 0 ABS 0 - -
@@ -229,7 +229,7 @@ __initialization FF8 0 CODE 0 cinit dist/default/production\Led.X.production.o
 # All other numeric quantities are in decimal.
 %SEGMENTS
 cinit 0 7FC FF8 4 2
-maintext 0 79D F3A 5F 2
+maintext 0 798 F30 64 2
 cstackCOMMON 1 70 70 3 1
 reset_vec 0 0 0 3 2
 # %NOTES Section

@@ -25,15 +25,15 @@ void main(void) {
         if(RB0 == 1)
         {
             RB1 = 1;
-            __delay_ms(400);
+            __delay_ms(1000);
             RB2 = 1;
-            __delay_ms(400);
+            __delay_ms(1000);
             RB3 = 1;
-            __delay_ms(400);
+            __delay_ms(1000);
             RB3 = 0;
-            __delay_ms(400);
+            __delay_ms(1000);
             RB2 = 0;
-            __delay_ms(400);
+            __delay_ms(1000);
             RB1 = 0;
         }
     }

@@ -1755,15 +1755,15 @@ void main(void) {
         if(RB0 == 1)
         {
             RB1 = 1;
-            _delay((unsigned long)((400)*(4000000/4000.0)));
+            _delay((unsigned long)((1000)*(4000000/4000.0)));
             RB2 = 1;
-            _delay((unsigned long)((400)*(4000000/4000.0)));
+            _delay((unsigned long)((1000)*(4000000/4000.0)));
             RB3 = 1;
-            _delay((unsigned long)((400)*(4000000/4000.0)));
+            _delay((unsigned long)((1000)*(4000000/4000.0)));
             RB3 = 0;
-            _delay((unsigned long)((400)*(4000000/4000.0)));
+            _delay((unsigned long)((1000)*(4000000/4000.0)));
             RB2 = 0;
-            _delay((unsigned long)((400)*(4000000/4000.0)));
+            _delay((unsigned long)((1000)*(4000000/4000.0)));
             RB1 = 0;
         }
     }
